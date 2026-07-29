@@ -1,51 +1,52 @@
 function cape() {
     document.getElementById("hasil").innerHTML = `
-    <h2>🥺 Peluk Virtual Buat Kamu 🤍</h2>
+    <div class="card">
+        <h2>🥺 Peluk Virtual Buat Kamu 🤍</h2>
 
-    <p>
-    Sinii dulu yaa... 🫂🤍
-    <br><br>
+        <p>
+        Sinii dulu yaa... 🫂<br><br>
 
-    Makasih yaa...
-    Karena walaupun hari ini capee,
-    kamu masih bertahan sampai sejauh ini.
-    Itu bukan hal yang mudah, dan kamu udah melakukan yang terbaik.
-    <br><br>
+        Makasih yaa udah bertahan sampai hari ini.
+        Aku tahu nggak semua hari itu mudah,
+        tapi kamu hebat karena masih bisa melewatinya. 🤍
+        <br><br>
 
-    Sekarang istirahat dulu yaa...
-    Jangan telat makan 🍜
-    Jangan lupa minum 💧
-    Dan tidur yang nyenyak malam ini. 🌙
-    <br><br>
+        Sekarang istirahat dulu yaa...
+        <br>🍜 Jangan telat makan.
+        <br>💧 Jangan lupa minum.
+        <br>🌙 Tidur yang cukup malam ini.
+        <br><br>
 
-    Semoga besok harimu jauh lebih ringan,
-    lebih banyak senyumnya,
-    dan lebih banyak hal baik yang datang buat kamu. 🌸🤍
-    </p>
+        Semoga besok harimu jauh lebih indah,
+        lebih ringan,
+        dan senyummu selalu menemani setiap langkahmu. 🌸
+        </p>
+
+        <h3>🤍 Semangat yaa cantikkk 🤍</h3>
+    </div>
     `;
 }
 
 function baik() {
     document.getElementById("hasil").innerHTML = `
-    <h2>🥹 Alhamdulillah 🤍</h2>
+    <div class="card">
+        <h2>🥹 Yeayyy...</h2>
 
-    <p>
-    Bacanya aja bikin aku ikut lega. 🌷
-    <br><br>
+        <p>
+        Alhamdulillah kalau hari ini kamu baik-baik aja. 🤍
+        <br><br>
 
-    Semoga rasa bahagia itu terus menemani kamu hari ini,
-    besok,
-    lusa,
-    dan seterusnya.
-    <br><br>
+        Semoga rasa bahagia itu terus ada,
+        dan semoga setiap langkahmu selalu dipenuhi hal-hal baik.
+        <br><br>
 
-    Tapi kalau suatu saat nanti kamu capee,
-    jangan dipendem sendirian yaa.
-    <br><br>
+        Tapi kalau nanti kamu capee,
+        jangan dipendem sendirian yaa.
+        Tetap jaga kesehatan,
+        dan jangan lupa banyak senyum. 🌷
+        </p>
 
-    Tetap jaga kesehatan,
-    jangan lupa makan,
-    dan semoga senyum cantik kamu selalu menghiasi harimu. 🤍✨
-    </p>
+        <h3>💖 Aku ikut seneng bacanya 💖</h3>
+    </div>
     `;
 }

@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#ffd6e7,#ffeaf3,#fff7fb);
+    overflow:hidden;
+}
+
+.container{
+    width:90%;
+    max-width:430px;
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+    animation:muncul 1s ease;
+}
+
+@keyframes muncul{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+h3{
+    color:#ff6b9d;
+    margin-bottom:10px;
+}
+
+h1{
+    color:#ff3f7f;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+p{
+    color:#555;
+    line-height:1.8;
+    font-size:17px;
+}
+
+.tanya{
+    color:#ff2f73;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.tombol{
+    margin-top:30px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin:8px 0;
+    border:none;
+    border-radius:50px;
+    background:#ff5d91;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#ff3b7a;
+}
+
+#hasil{
+    margin-top:25px;
+    color:#444;
+    line-height:1.8;
+    font-size:17px;
+    animation:muncul .5s;
+}

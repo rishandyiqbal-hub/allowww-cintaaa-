@@ -1,3 +1,7 @@
+function bukaPesan(){
+    document.getElementById("halaman1").style.display = "none";
+    document.getElementById("halaman2").style.display = "block";
+}
 function cape() {
     document.getElementById("hasil").innerHTML = `
     <div class="card">
